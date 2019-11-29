@@ -19,4 +19,12 @@ To find your key go to https://ifttt.com/maker_webhooks and click on 'Documentat
 
 
 ### Server configuration with YAML 
-You will need to update the config.yaml file with your credentials, Webhook key, etc.
+Start by installing the dependencies
+```
+pip install pyyaml bs4 requests
+```
+Then you should update the config.yaml file with your credentials, Webhook key, searchwords etc.  
+When you're ready start the main script
+```
+python main.python
+```
