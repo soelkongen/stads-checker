@@ -29,7 +29,7 @@ if __name__ == "__main__":
     PositiveResults = False
 
     Configuration = Configuration()
-    Configuration.readYAMLfile("C:/Users/gusta/Desktop/config.yaml")
+    Configuration.readYAMLfile("config.yaml")
     Configuration.setConfig()
     
     SendNotification = SendNotification(Configuration.AppletName, Configuration.WebHooksKey)

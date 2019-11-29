@@ -1,6 +1,6 @@
 # AAU Stads Checker
 ## Usage
-Python script that will inform you if there is updates on your Stads site. It uses IFTTT and Webhooks to give you push notifications on your phone. It should give you a notification within second
+Python script that will inform you if there is updates on your Stads site. It uses IFTTT and Webhooks to give you push notifications on your phone. It will give you a notification within a minute
 
 ## Setup
 ### IFTTT and Webhooks
