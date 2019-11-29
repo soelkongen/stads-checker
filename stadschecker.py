@@ -102,18 +102,18 @@ class stads(object):
         for result in self.results:
             for keyword in keywords:
                 if keyword.lower() in result["name"].lower():
-                    return True
+                    return result
         return False
 
 
 
 
-
-x = stads(os.environ['AAU_STADS_USERNAME'], os.environ['AAU_STADS_PASSWORD'])
-x.login()
-x.getResults()
-x.printResults()
-print(x.checkResultAvailable(["fdsfsd"]))
-print(x.checkResultAvailable(["lineære"]))
-print(x.checkResultAvailable(["beregnings"]))
+if __name__ == "__main__":
+    x = stads(os.environ['AAU_STADS_USERNAME'], os.environ['AAU_STADS_PASSWORD'])
+    x.login()
+    x.getResults()
+    x.printResults()
+    print(x.checkResultAvailable(["fdsfsd"]))
+    print(x.checkResultAvailable(["lineære"]))
+    print(x.checkResultAvailable(["beregnings"]))
 

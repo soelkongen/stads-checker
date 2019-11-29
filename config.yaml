@@ -1,0 +1,9 @@
+- config:
+    AppletName: stads
+    WebHooksKey: insertkeyhere
+    UpdateInterval: 30
+    Username: 
+    Password: 
+- searchwords:
+    - insertsomekeywords
+    - module11
