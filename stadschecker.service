@@ -1,0 +1,9 @@
+[Unit]
+Description=Stads Checker
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u main.py
+WorkingDirectory=/etc/stads-checker/
+StandardOutput=inherit
+StandardError=inherit
